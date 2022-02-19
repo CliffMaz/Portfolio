@@ -1,0 +1,112 @@
+.intro {
+  display: flex;
+  height: 100%;
+}
+
+.intro-left {
+  flex: 2;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-left-wrapper {
+  padding: 120px 50px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro-left-info {
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.intro-left-info-desc {
+  font-size: 25px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.intro-left-name {
+  font-size: 50px;
+
+  color: #172cc7;
+}
+.intro-right {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.intro-right-wrapper {
+  padding-bottom: 20px;
+}
+
+.intro-right-img {
+  margin-top: 45px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.intro-scroll {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.cv-btn {
+  width: 35%;
+
+  border: 2px solid rgb(29, 62, 170);
+  border-radius: 5px;
+  background-color: #171c28;
+  color: rgb(29, 62, 170);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cv-btn:active {
+  background-color: rgb(226, 188, 188);
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-bottom: 100px;
+  }
+
+  .cv-btn {
+    width: 100%;
+
+    border: 2px solid rgb(29, 62, 170);
+    border-radius: 5px;
+    background-color: #171c28;
+    color: rgb(29, 62, 170);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .intro-left-wrapper {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .intro-right-img {
+    height: 100%;
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  animation: bring 2s ease forwards;
+}
+
+@keyframes bring {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
