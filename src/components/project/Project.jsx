@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '@material-ui/core/button'
+//import Button from '@material-ui/core/button'
 import './project.css';
 function Project({name, img, siteLink, codeLink, desc}) {
     return (
@@ -17,8 +17,8 @@ function Project({name, img, siteLink, codeLink, desc}) {
             {desc}
         </div>
         <div className="back-buttons">
-            <Button variant="outlined" className="backbtn" href={siteLink}>View Site</Button>
-            <Button variant="outlined" className="backbtn" href={codeLink}>View Code</Button>
+            <button  className="backbtn" href={siteLink}>View Site</button>
+            <button  className="backbtn" href={codeLink}>View Code</button>
         </div>
     </div>
   </div>
